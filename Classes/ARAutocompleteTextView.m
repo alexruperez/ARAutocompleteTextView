@@ -117,7 +117,7 @@ static NSObject<ARAutocompleteDataSource> *DefaultAutocompleteDataSource = nil;
 {
     CGRect caretRect = [self caretRectForPosition:self.selectedTextRange.start];
     
-    CGRect returnRect = CGRectMake(caretRect.origin.x + 1.0f, caretRect.origin.y, self.frame.size.width, 19.0f);
+    CGRect returnRect = CGRectMake(caretRect.origin.x + 1.0f, caretRect.origin.y, self.frame.size.width, caretRect.size.height);
     
     return returnRect;
 }

@@ -13,7 +13,8 @@ ARAutocompleteTextView is a subclass of UITextView that automatically displays t
 ### Add the following files to your project:
 * `ARAutocompleteTextView.m`
 * `ARAutocompleteTextView.h`
-* `HTAutocompleteManager.m` and `HTAutocompleteManager.h`
+* `ARAutocompleteManager.m`
+* `ARAutocompleteManager.h`
 
 ## Quickstart Guide
 
@@ -23,8 +24,8 @@ Create an `ARAutocompleteTextView` instance exactly as as you would `UITextView`
 
 The data source is the brains of the autocomplete logic.  If you just want to autocomplete email addresses, #hashtags or @handles, use `ARAutocompleteManager` from the example project as follows:
 
-    textField.autocompleteDataSource = [HTAutocompleteManager sharedManager];
-    textField.autocompleteType = HTAutocompleteTypeAll;
+    textField.autocompleteDataSource = [ARAutocompleteManager sharedManager];
+    textField.autocompleteType = ARAutocompleteTypeEmail;
 
 ## Customization
 
@@ -38,7 +39,7 @@ Alternatively, you may wish to create your own data source class and user the `a
 
 You may also set a default `dataSource` for all instances of `ARAutocompleteTextView`.  In the example project, we use a `ARAutocompleteManager` singleton:
 
-     [autocompleteTextOffset setDefaultAutocompleteDataSource:[HTAutocompleteManager sharedManager]];
+     [autocompleteTextOffset setDefaultAutocompleteDataSource:[ARAutocompleteManager sharedManager]];
 
 ### Positioning and Formatting
 
@@ -61,6 +62,7 @@ Be careful setting the delegate, internally implements the method `- (BOOL)textV
 # Etc.
 
 * Use this in your apps whenever you can, particularly email addresses -- your users will appreciate it!
+* Ready to work with [alexruperez/STTweetLabel](https://github.com/alexruperez/STTweetLabel).
 * Contributions are very welcome.
 * Attribution is appreciated (let's spread the word!), but not mandatory.
 
