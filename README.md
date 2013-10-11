@@ -57,8 +57,6 @@ To adjust the properties (i.e. `font`, `textColor`) of the autocomplete label, d
 
 In addition to observing the standard `UITextView` notifications (i.e. `UITextViewTextDidChangeNotification` and friends), you can use `[ARAutocompleteTextView autoCompleteTextFieldDelegate]` to listen for certain events.  This is particularly useful if you are collecting analytics.
 
-Be careful setting the delegate, internally implements the method `- (BOOL)textView:(UITextView *)textView shouldChangeTextInRange:(NSRange)range replacementText:(NSString *)text` to avoid replacing "double space" by "space with dot" in iOS7.
-
 # Etc.
 
 * Use this in your apps whenever you can, particularly email addresses -- your users will appreciate it!

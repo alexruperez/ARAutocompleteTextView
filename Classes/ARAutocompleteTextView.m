@@ -44,7 +44,7 @@ static NSObject<ARAutocompleteDataSource> *DefaultAutocompleteDataSource = nil;
 
 - (void)setupAutocompleteTextView
 {
-    self.delegate = self;
+    [super setDelegate:self];
     
     self.autocompleteLabel = [[UILabel alloc] initWithFrame:CGRectZero];
     self.autocompleteLabel.font = self.font;
@@ -80,6 +80,11 @@ static NSObject<ARAutocompleteDataSource> *DefaultAutocompleteDataSource = nil;
 {
     [super setFont:font];
     [self.autocompleteLabel setFont:font];
+}
+
+- (void)setDelegate:(id<UITextViewDelegate>)delegate
+{
+    self.innerTextViewDelegate = delegate;
 }
 
 #pragma mark - UIResponder
@@ -198,6 +203,69 @@ static NSObject<ARAutocompleteDataSource> *DefaultAutocompleteDataSource = nil;
 - (BOOL)textView:(UITextView *)textView shouldChangeTextInRange:(NSRange)range replacementText:(NSString *)text
 {
     if ([text isEqualToString:@". "]) return NO;
+    if (self.innerTextViewDelegate && [self.innerTextViewDelegate respondsToSelector:@selector(textView:shouldChangeTextInRange:replacementText:)]) {
+        return [self.innerTextViewDelegate textView:textView shouldChangeTextInRange:range replacementText:text];
+    }
+    return YES;
+}
+
+- (BOOL)textView:(UITextView *)textView shouldInteractWithTextAttachment:(NSTextAttachment *)textAttachment inRange:(NSRange)characterRange
+{
+    if (self.innerTextViewDelegate && [self.innerTextViewDelegate respondsToSelector:@selector(textView:shouldInteractWithTextAttachment:inRange:)]) {
+        return [self.innerTextViewDelegate textView:textView shouldInteractWithTextAttachment:textAttachment inRange:characterRange];
+    }
+    return YES;
+}
+
+- (BOOL)textView:(UITextView *)textView shouldInteractWithURL:(NSURL *)URL inRange:(NSRange)characterRange
+{
+    if (self.innerTextViewDelegate && [self.innerTextViewDelegate respondsToSelector:@selector(textView:shouldInteractWithURL:inRange:)]) {
+        return [self.innerTextViewDelegate textView:textView shouldInteractWithURL:URL inRange:characterRange];
+    }
+    return YES;
+}
+
+- (void)textViewDidBeginEditing:(UITextView *)textView
+{
+    if (self.innerTextViewDelegate && [self.innerTextViewDelegate respondsToSelector:@selector(textViewDidBeginEditing:)]) {
+        [self.innerTextViewDelegate textViewDidBeginEditing:textView];
+    }
+}
+
+- (void)textViewDidChange:(UITextView *)textView
+{
+    if (self.innerTextViewDelegate && [self.innerTextViewDelegate respondsToSelector:@selector(textViewDidChange:)]) {
+        [self.innerTextViewDelegate textViewDidChange:textView];
+    }
+}
+
+- (void)textViewDidChangeSelection:(UITextView *)textView
+{
+    if (self.innerTextViewDelegate && [self.innerTextViewDelegate respondsToSelector:@selector(textViewDidChangeSelection:)]) {
+        [self.innerTextViewDelegate textViewDidChangeSelection:textView];
+    }
+}
+
+- (void)textViewDidEndEditing:(UITextView *)textView
+{
+    if (self.innerTextViewDelegate && [self.innerTextViewDelegate respondsToSelector:@selector(textViewDidEndEditing:)]) {
+        [self.innerTextViewDelegate textViewDidEndEditing:textView];
+    }
+}
+
+- (BOOL)textViewShouldBeginEditing:(UITextView *)textView
+{
+    if (self.innerTextViewDelegate && [self.innerTextViewDelegate respondsToSelector:@selector(textViewShouldBeginEditing:)]) {
+        return [self.innerTextViewDelegate textViewShouldBeginEditing:textView];
+    }
+    return YES;
+}
+
+- (BOOL)textViewShouldEndEditing:(UITextView *)textView
+{
+    if (self.innerTextViewDelegate && [self.innerTextViewDelegate respondsToSelector:@selector(textViewShouldEndEditing:)]) {
+        return [self.innerTextViewDelegate textViewShouldEndEditing:textView];
+    }
     return YES;
 }
 

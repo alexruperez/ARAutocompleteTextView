@@ -42,6 +42,7 @@
 @property (nonatomic, assign) BOOL autocompleteDisabled;
 @property (nonatomic, assign) BOOL ignoreCase;
 @property (nonatomic, assign) id<ARAutocompleteTextViewDelegate> autoCompleteTextViewDelegate;
+@property (nonatomic, assign) id<UITextViewDelegate> innerTextViewDelegate;
 
 /*
  * Configure text field appearance
