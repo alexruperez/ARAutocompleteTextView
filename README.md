@@ -6,6 +6,8 @@
 
 ARAutocompleteTextView is a subclass of UITextView that automatically displays text suggestions in real-time.  This is perfect for automatically suggesting the domain as a user types an email address, #hashtag or @handle.
 
+<img src="https://raw.github.com/alexruperez/ARAutocompleteTextView/master/ARTextViewAutocompletion.png" alt="ARTextViewAutocompletion" title="ARAutocompleteTextView" style="display:block; margin: 10px auto 30px auto; align:center">
+
 # Usage
 
 ## Installation
