@@ -15,6 +15,7 @@ static NSObject<ARAutocompleteDataSource> *DefaultAutocompleteDataSource = nil;
 @interface ARAutocompleteTextView ()
 
 @property (nonatomic, strong) NSString *autocompleteString;
+@property (nonatomic, assign) BOOL autocompleted;
 
 @end
 
@@ -63,6 +64,7 @@ static NSObject<ARAutocompleteDataSource> *DefaultAutocompleteDataSource = nil;
     [self bringSubviewToFront:self.autocompleteLabel];
 
     self.autocompleteString = @"";
+    self.autocompleted = NO;
     
     self.ignoreCase = YES;
     
@@ -202,7 +204,13 @@ static NSObject<ARAutocompleteDataSource> *DefaultAutocompleteDataSource = nil;
 
 - (BOOL)textView:(UITextView *)textView shouldChangeTextInRange:(NSRange)range replacementText:(NSString *)text
 {
-    if ([text isEqualToString:@". "]) return NO;
+    if (self.autocompleted) {
+      if ([text isEqualToString:@". "]) {
+        self.autocompleted = NO;
+        return NO;
+      }
+    }
+
     if (self.innerTextViewDelegate && [self.innerTextViewDelegate respondsToSelector:@selector(textView:shouldChangeTextInRange:replacementText:)]) {
         return [self.innerTextViewDelegate textView:textView shouldChangeTextInRange:range replacementText:text];
     }
@@ -285,6 +293,8 @@ static NSObject<ARAutocompleteDataSource> *DefaultAutocompleteDataSource = nil;
         self.autocompleteLabel.hidden = NO;
         
         [self commitAutocompleteText];
+
+        self.autocompleted = YES;
         
         // This is necessary because committing the autocomplete text changes the text field's text, but for some reason UITextView doesn't post the UITextViewTextDidChangeNotification notification on its own
         [[NSNotificationCenter defaultCenter] postNotificationName:UITextViewTextDidChangeNotification object:self];
