@@ -72,4 +72,5 @@ Tweet the author @alexruperez, and check out alexruperez's blog: http://alexrupe
 ## Other Links
 
 [code4app Review](http://code4app.net/ios/ARAutocompleteTextView/528d8d86cb7e8464178b4e35)
+
 [Cocoa Controls](http://cocoacontrols.com/controls/arautocompletetextview)
