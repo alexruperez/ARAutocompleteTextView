@@ -62,10 +62,14 @@ In addition to observing the standard `UITextView` notifications (i.e. `UITextVi
 # Etc.
 
 * Use this in your apps whenever you can, particularly email addresses -- your users will appreciate it!
-* Ready to work with [alexruperez/STTweetLabel](https://github.com/alexruperez/STTweetLabel).
 * Contributions are very welcome.
 * Attribution is appreciated (let's spread the word!), but not mandatory.
 
 ## Use it? Love/hate it?
 
 Tweet the author @alexruperez, and check out alexruperez's blog: http://alexruperez.com
+
+## Other Links
+
+[code4app Review](http://code4app.net/ios/ARAutocompleteTextView/528d8d86cb7e8464178b4e35)
+[Cocoa Controls](http://cocoacontrols.com/controls/arautocompletetextview)

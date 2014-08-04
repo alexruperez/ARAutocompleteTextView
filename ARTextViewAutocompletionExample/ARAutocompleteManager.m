@@ -186,7 +186,8 @@ static ARAutocompleteManager *sharedManager;
                                                   @"rambler.ru",
                                                   @"temple.edu",
                                                   @"cinci.rr.com",
-                                                  @"alexruperez.com"];
+                                                  @"alexruperez.com",
+                                                  @"gigigo.com"];
                       });
         
         // Check that text field contains an @
@@ -257,9 +258,11 @@ static ARAutocompleteManager *sharedManager;
         static NSArray *colorAutocompleteArray;
         dispatch_once(&colorOnceToken, ^
         {
-            colorAutocompleteArray = @[ @"Alfred",
+            colorAutocompleteArray = @[ @"Alex",
+                                        @"Alfred",
                                         @"Beth",
                                         @"Carlos",
+                                        @"Cris",
                                         @"Daniel",
                                         @"Ethan",
                                         @"Fred",
@@ -268,14 +271,14 @@ static ARAutocompleteManager *sharedManager;
                                         @"Inis",
                                         @"Jennifer",
                                         @"Kylie",
-                                        @"Liam"
+                                        @"Liam",
                                         @"Melissa",
                                         @"Noah",
                                         @"Omar",
                                         @"Penelope",
                                         @"Quan",
                                         @"Rachel",
-                                        @"Seth"
+                                        @"Seth",
                                         @"Timothy",
                                         @"Ulga",
                                         @"Vanessa",
