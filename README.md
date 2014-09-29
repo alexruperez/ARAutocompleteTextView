@@ -1,7 +1,10 @@
 
 # ARAutocompleteTextView
 
-[![Dependency Status](http://www.versioneye.com/objective-c/arautocompletetextview/0.0.1/badge.svg)](http://www.versioneye.com/objective-c/arautocompletetextview/0.0.1) [![License Status](http://img.shields.io/badge/license-MIT-blue.svg)](http://opensource.org/licenses/MIT) [![Platform Status](http://img.shields.io/badge/platform-iOS-lightgrey.svg)](https://developer.apple.com) [![Language Status](http://img.shields.io/badge/language-Objective--C-lightgrey.svg)](https://developer.apple.com/library/mac/documentation/cocoa/conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html) [![Pod Status](http://img.shields.io/badge/pod-v0.0.1-orange.svg)](https://github.com/CocoaPods/Specs/blob/master/Specs/ARAutocompleteTextView/0.0.1/ARAutocompleteTextView.podspec.json)
+[![Dependency Status](http://www.versioneye.com/objective-c/arautocompletetextview/0.0.1/badge.svg)](http://www.versioneye.com/objective-c/arautocompletetextview/0.0.1)
+[![License Status](http://img.shields.io/cocoapods/l/ARAutocompleteTextView.svg)](http://opensource.org/licenses/MIT)
+[![Platform Status](http://img.shields.io/cocoapods/p/ARAutocompleteTextView.svg)](https://developer.apple.com)
+[![Pod Status](http://img.shields.io/cocoapods/v/ARAutocompleteTextView.svg)](https://github.com/CocoaPods/Specs/blob/master/Specs/ARAutocompleteTextView/0.0.1/ARAutocompleteTextView.podspec.json)
 
 
 
