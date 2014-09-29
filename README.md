@@ -1,10 +1,11 @@
 
 # ARAutocompleteTextView
 
-[![Dependency Status](http://www.versioneye.com/objective-c/arautocompletetextview/0.0.1/badge.svg)](http://www.versioneye.com/objective-c/arautocompletetextview/0.0.1)
+[![GitHub Issues](http://img.shields.io/github/issues/alexruperez/ARAutocompleteTextView.svg)](http://github.com/alexruperez/ARAutocompleteTextView/issues)
 [![License Status](http://img.shields.io/cocoapods/l/ARAutocompleteTextView.svg)](http://opensource.org/licenses/MIT)
 [![Platform Status](http://img.shields.io/cocoapods/p/ARAutocompleteTextView.svg)](https://developer.apple.com)
 [![Pod Status](http://img.shields.io/cocoapods/v/ARAutocompleteTextView.svg)](https://github.com/CocoaPods/Specs/blob/master/Specs/ARAutocompleteTextView/0.0.1/ARAutocompleteTextView.podspec.json)
+[![Dependency Status](http://www.versioneye.com/objective-c/arautocompletetextview/0.0.1/badge.svg)](http://www.versioneye.com/objective-c/arautocompletetextview/0.0.1)
 
 
 
