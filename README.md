@@ -1,6 +1,7 @@
 
 # ARAutocompleteTextView
 
+[![Twitter](http://img.shields.io/badge/contact-@alexruperez-blue.svg?style=flat)](http://twitter.com/alexruperez)
 [![GitHub Issues](http://img.shields.io/github/issues/alexruperez/ARAutocompleteTextView.svg?style=flat)](http://github.com/alexruperez/ARAutocompleteTextView/issues)
 [![License Status](http://img.shields.io/cocoapods/l/ARAutocompleteTextView.svg?style=flat)](http://opensource.org/licenses/MIT)
 [![Platform Status](http://img.shields.io/cocoapods/p/ARAutocompleteTextView.svg?style=flat)](https://developer.apple.com)
