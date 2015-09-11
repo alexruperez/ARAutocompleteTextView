@@ -187,7 +187,7 @@ static ARAutocompleteManager *sharedManager;
                                                   @"temple.edu",
                                                   @"cinci.rr.com",
                                                   @"alexruperez.com",
-                                                  @"gigigo.com"];
+                                                  @"feverup.com"];
                       });
         
         // Check that text field contains an @

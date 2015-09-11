@@ -15,7 +15,7 @@
     [super setupAutocompleteTextView];
     
     // Default list to suggest
-    self.autocomplete = @[ @"@alexruperez", @"@gigigoapps", @"@GigigoMexico", @"@KimberlySunster", @"@sbaro_gigigo", @"@davidr_79", @"#alexruperez", @"#gigigo", @"#google", @"#facebook", @"#twitter", @"#hashtag" ];
+    self.autocomplete = @[ @"@alexruperez", @"@feverapp", @"@JavierQuerol", @"#alexruperez", @"#fever", @"#google", @"#facebook", @"#twitter", @"#hashtag" ];
     
     self.autocompleteDataSource = self;
 }

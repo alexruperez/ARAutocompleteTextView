@@ -1,16 +1,13 @@
 
 # ARAutocompleteTextView
 [![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/alexruperez/ARAutocompleteTextView?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
 [![Twitter](http://img.shields.io/badge/contact-@alexruperez-blue.svg?style=flat)](http://twitter.com/alexruperez)
 [![GitHub Issues](http://img.shields.io/github/issues/alexruperez/ARAutocompleteTextView.svg?style=flat)](http://github.com/alexruperez/ARAutocompleteTextView/issues)
-[![License Status](http://img.shields.io/cocoapods/l/ARAutocompleteTextView.svg?style=flat)](http://opensource.org/licenses/MIT)
-[![Platform Status](http://img.shields.io/cocoapods/p/ARAutocompleteTextView.svg?style=flat)](https://developer.apple.com)
+[![Version Status](http://img.shields.io/cocoapods/v/ARAutocompleteTextView.svg?style=flat)](http://cocoadocs.org/docsets/ARAutocompleteTextView)
+[![License Status](http://img.shields.io/cocoapods/l/ARAutocompleteTextView.svg?style=flat)](http://cocoadocs.org/docsets/ARAutocompleteTextView)
+[![Platform Status](http://img.shields.io/cocoapods/p/ARAutocompleteTextView.svg?style=flat)](http://cocoadocs.org/docsets/ARAutocompleteTextView)
 [![Pod Status](http://img.shields.io/cocoapods/v/ARAutocompleteTextView.svg?style=flat)](https://github.com/CocoaPods/Specs/blob/master/Specs/ARAutocompleteTextView/0.0.1/ARAutocompleteTextView.podspec.json)
-[![Dependency Status](http://www.versioneye.com/objective-c/arautocompletetextview/0.0.1/badge.svg?style=flat)](http://www.versioneye.com/objective-c/arautocompletetextview/0.0.1)
 [![Analytics](https://ga-beacon.appspot.com/UA-55329295-1/ARAutocompleteTextView/readme?pixel)](https://github.com/igrigorik/ga-beacon)
-
-
 
 ## Overview
 

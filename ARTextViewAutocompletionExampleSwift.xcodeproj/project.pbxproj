@@ -12,22 +12,11 @@
 		C2B3C4011BA2671B002344AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2B3C3FF1BA2671B002344AE /* Main.storyboard */; };
 		C2B3C4031BA2671B002344AE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2B3C4021BA2671B002344AE /* Images.xcassets */; };
 		C2B3C4061BA2671B002344AE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2B3C4041BA2671B002344AE /* LaunchScreen.xib */; };
-		C2B3C4121BA2671B002344AE /* ARTextViewAutocompletionExampleSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B3C4111BA2671B002344AE /* ARTextViewAutocompletionExampleSwiftTests.swift */; };
-		C2B3C4221BA26730002344AE /* ARAutocompleteTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B3C41D1BA26730002344AE /* ARAutocompleteTextView.m */; };
-		C2B3C4231BA26730002344AE /* AREmailAutocompleteTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B3C41F1BA26730002344AE /* AREmailAutocompleteTextView.m */; };
-		C2B3C4241BA26730002344AE /* ARTwitterAutocompleteTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B3C4211BA26730002344AE /* ARTwitterAutocompleteTextView.m */; };
-		C2B3C42D1BA26843002344AE /* ARAutocompleteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B3C42C1BA26843002344AE /* ARAutocompleteManager.m */; };
+		D59957791BA2BD450089C1AB /* ARAutocompleteTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = D59957741BA2BD450089C1AB /* ARAutocompleteTextView.m */; };
+		D599577A1BA2BD450089C1AB /* AREmailAutocompleteTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = D59957761BA2BD450089C1AB /* AREmailAutocompleteTextView.m */; };
+		D599577B1BA2BD450089C1AB /* ARTwitterAutocompleteTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = D59957781BA2BD450089C1AB /* ARTwitterAutocompleteTextView.m */; };
+		D599577F1BA2BD890089C1AB /* ARAutocompleteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D599577E1BA2BD890089C1AB /* ARAutocompleteManager.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		C2B3C40C1BA2671B002344AE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C2B3C3EE1BA2671B002344AE /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C2B3C3F51BA2671B002344AE;
-			remoteInfo = ARTextViewAutocompletionExampleSwift;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		C2B3C3F61BA2671B002344AE /* ARTextViewAutocompletionExampleSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARTextViewAutocompletionExampleSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -37,29 +26,21 @@
 		C2B3C4001BA2671B002344AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C2B3C4021BA2671B002344AE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C2B3C4051BA2671B002344AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		C2B3C40B1BA2671B002344AE /* ARTextViewAutocompletionExampleSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARTextViewAutocompletionExampleSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2B3C4101BA2671B002344AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C2B3C4111BA2671B002344AE /* ARTextViewAutocompletionExampleSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARTextViewAutocompletionExampleSwiftTests.swift; sourceTree = "<group>"; };
-		C2B3C41C1BA26730002344AE /* ARAutocompleteTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARAutocompleteTextView.h; sourceTree = "<group>"; };
-		C2B3C41D1BA26730002344AE /* ARAutocompleteTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARAutocompleteTextView.m; sourceTree = "<group>"; };
-		C2B3C41E1BA26730002344AE /* AREmailAutocompleteTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AREmailAutocompleteTextView.h; sourceTree = "<group>"; };
-		C2B3C41F1BA26730002344AE /* AREmailAutocompleteTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AREmailAutocompleteTextView.m; sourceTree = "<group>"; };
-		C2B3C4201BA26730002344AE /* ARTwitterAutocompleteTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARTwitterAutocompleteTextView.h; sourceTree = "<group>"; };
-		C2B3C4211BA26730002344AE /* ARTwitterAutocompleteTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARTwitterAutocompleteTextView.m; sourceTree = "<group>"; };
-		C2B3C4281BA267AD002344AE /* ARTextViewAutocompletionExampleSwift-bridging-header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ARTextViewAutocompletionExampleSwift-bridging-header.h"; sourceTree = "<group>"; };
-		C2B3C42B1BA26843002344AE /* ARAutocompleteManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARAutocompleteManager.h; sourceTree = "<group>"; };
-		C2B3C42C1BA26843002344AE /* ARAutocompleteManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARAutocompleteManager.m; sourceTree = "<group>"; };
+		D59957731BA2BD450089C1AB /* ARAutocompleteTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARAutocompleteTextView.h; sourceTree = "<group>"; };
+		D59957741BA2BD450089C1AB /* ARAutocompleteTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARAutocompleteTextView.m; sourceTree = "<group>"; };
+		D59957751BA2BD450089C1AB /* AREmailAutocompleteTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AREmailAutocompleteTextView.h; sourceTree = "<group>"; };
+		D59957761BA2BD450089C1AB /* AREmailAutocompleteTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AREmailAutocompleteTextView.m; sourceTree = "<group>"; };
+		D59957771BA2BD450089C1AB /* ARTwitterAutocompleteTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARTwitterAutocompleteTextView.h; sourceTree = "<group>"; };
+		D59957781BA2BD450089C1AB /* ARTwitterAutocompleteTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARTwitterAutocompleteTextView.m; sourceTree = "<group>"; };
+		D599577C1BA2BD4F0089C1AB /* ARTextViewAutocompletionExampleSwift-bridging-header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ARTextViewAutocompletionExampleSwift-bridging-header.h"; sourceTree = "<group>"; };
+		D599577D1BA2BD890089C1AB /* ARAutocompleteManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ARAutocompleteManager.h; path = ARTextViewAutocompletionExample/ARAutocompleteManager.h; sourceTree = SOURCE_ROOT; };
+		D599577E1BA2BD890089C1AB /* ARAutocompleteManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ARAutocompleteManager.m; path = ARTextViewAutocompletionExample/ARAutocompleteManager.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		C2B3C3F31BA2671B002344AE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C2B3C4081BA2671B002344AE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -72,7 +53,6 @@
 		C2B3C3ED1BA2671B002344AE = {
 			isa = PBXGroup;
 			children = (
-				C2B3C4281BA267AD002344AE /* ARTextViewAutocompletionExampleSwift-bridging-header.h */,
 				C2B3C41B1BA26730002344AE /* Classes */,
 				C2B3C3F81BA2671B002344AE /* ARTextViewAutocompletionExampleSwift */,
 				C2B3C40E1BA2671B002344AE /* ARTextViewAutocompletionExampleSwiftTests */,
@@ -84,7 +64,6 @@
 			isa = PBXGroup;
 			children = (
 				C2B3C3F61BA2671B002344AE /* ARTextViewAutocompletionExampleSwift.app */,
-				C2B3C40B1BA2671B002344AE /* ARTextViewAutocompletionExampleSwiftTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -92,6 +71,9 @@
 		C2B3C3F81BA2671B002344AE /* ARTextViewAutocompletionExampleSwift */ = {
 			isa = PBXGroup;
 			children = (
+				D599577D1BA2BD890089C1AB /* ARAutocompleteManager.h */,
+				D599577E1BA2BD890089C1AB /* ARAutocompleteManager.m */,
+				D599577C1BA2BD4F0089C1AB /* ARTextViewAutocompletionExampleSwift-bridging-header.h */,
 				C2B3C3FB1BA2671B002344AE /* AppDelegate.swift */,
 				C2B3C3FD1BA2671B002344AE /* ViewController.swift */,
 				C2B3C3FF1BA2671B002344AE /* Main.storyboard */,
@@ -130,14 +112,12 @@
 		C2B3C41B1BA26730002344AE /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				C2B3C41C1BA26730002344AE /* ARAutocompleteTextView.h */,
-				C2B3C41D1BA26730002344AE /* ARAutocompleteTextView.m */,
-				C2B3C41E1BA26730002344AE /* AREmailAutocompleteTextView.h */,
-				C2B3C41F1BA26730002344AE /* AREmailAutocompleteTextView.m */,
-				C2B3C4201BA26730002344AE /* ARTwitterAutocompleteTextView.h */,
-				C2B3C4211BA26730002344AE /* ARTwitterAutocompleteTextView.m */,
-				C2B3C42B1BA26843002344AE /* ARAutocompleteManager.h */,
-				C2B3C42C1BA26843002344AE /* ARAutocompleteManager.m */,
+				D59957731BA2BD450089C1AB /* ARAutocompleteTextView.h */,
+				D59957741BA2BD450089C1AB /* ARAutocompleteTextView.m */,
+				D59957751BA2BD450089C1AB /* AREmailAutocompleteTextView.h */,
+				D59957761BA2BD450089C1AB /* AREmailAutocompleteTextView.m */,
+				D59957771BA2BD450089C1AB /* ARTwitterAutocompleteTextView.h */,
+				D59957781BA2BD450089C1AB /* ARTwitterAutocompleteTextView.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -162,24 +142,6 @@
 			productReference = C2B3C3F61BA2671B002344AE /* ARTextViewAutocompletionExampleSwift.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C2B3C40A1BA2671B002344AE /* ARTextViewAutocompletionExampleSwiftTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C2B3C4181BA2671B002344AE /* Build configuration list for PBXNativeTarget "ARTextViewAutocompletionExampleSwiftTests" */;
-			buildPhases = (
-				C2B3C4071BA2671B002344AE /* Sources */,
-				C2B3C4081BA2671B002344AE /* Frameworks */,
-				C2B3C4091BA2671B002344AE /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C2B3C40D1BA2671B002344AE /* PBXTargetDependency */,
-			);
-			name = ARTextViewAutocompletionExampleSwiftTests;
-			productName = ARTextViewAutocompletionExampleSwiftTests;
-			productReference = C2B3C40B1BA2671B002344AE /* ARTextViewAutocompletionExampleSwiftTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -192,10 +154,6 @@
 				TargetAttributes = {
 					C2B3C3F51BA2671B002344AE = {
 						CreatedOnToolsVersion = 6.4;
-					};
-					C2B3C40A1BA2671B002344AE = {
-						CreatedOnToolsVersion = 6.4;
-						TestTargetID = C2B3C3F51BA2671B002344AE;
 					};
 				};
 			};
@@ -213,7 +171,6 @@
 			projectRoot = "";
 			targets = (
 				C2B3C3F51BA2671B002344AE /* ARTextViewAutocompletionExampleSwift */,
-				C2B3C40A1BA2671B002344AE /* ARTextViewAutocompletionExampleSwiftTests */,
 			);
 		};
 /* End PBXProject section */
@@ -229,13 +186,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C2B3C4091BA2671B002344AE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -244,31 +194,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2B3C3FE1BA2671B002344AE /* ViewController.swift in Sources */,
-				C2B3C4231BA26730002344AE /* AREmailAutocompleteTextView.m in Sources */,
-				C2B3C42D1BA26843002344AE /* ARAutocompleteManager.m in Sources */,
-				C2B3C4221BA26730002344AE /* ARAutocompleteTextView.m in Sources */,
-				C2B3C4241BA26730002344AE /* ARTwitterAutocompleteTextView.m in Sources */,
+				D599577A1BA2BD450089C1AB /* AREmailAutocompleteTextView.m in Sources */,
+				D599577F1BA2BD890089C1AB /* ARAutocompleteManager.m in Sources */,
+				D59957791BA2BD450089C1AB /* ARAutocompleteTextView.m in Sources */,
+				D599577B1BA2BD450089C1AB /* ARTwitterAutocompleteTextView.m in Sources */,
 				C2B3C3FC1BA2671B002344AE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C2B3C4071BA2671B002344AE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C2B3C4121BA2671B002344AE /* ARTextViewAutocompletionExampleSwiftTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		C2B3C40D1BA2671B002344AE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C2B3C3F51BA2671B002344AE /* ARTextViewAutocompletionExampleSwift */;
-			targetProxy = C2B3C40C1BA2671B002344AE /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		C2B3C3FF1BA2671B002344AE /* Main.storyboard */ = {
@@ -378,7 +312,7 @@
 				INFOPLIST_FILE = ARTextViewAutocompletionExampleSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "ARTextViewAutocompletionExampleSwift-bridging-header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "ARTextViewAutocompletionExampleSwift/ARTextViewAutocompletionExampleSwift-bridging-header.h";
 			};
 			name = Debug;
 		};
@@ -389,41 +323,7 @@
 				INFOPLIST_FILE = ARTextViewAutocompletionExampleSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "ARTextViewAutocompletionExampleSwift-bridging-header.h";
-			};
-			name = Release;
-		};
-		C2B3C4191BA2671B002344AE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = ARTextViewAutocompletionExampleSwiftTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARTextViewAutocompletionExampleSwift.app/ARTextViewAutocompletionExampleSwift";
-			};
-			name = Debug;
-		};
-		C2B3C41A1BA2671B002344AE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = ARTextViewAutocompletionExampleSwiftTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARTextViewAutocompletionExampleSwift.app/ARTextViewAutocompletionExampleSwift";
+				SWIFT_OBJC_BRIDGING_HEADER = "ARTextViewAutocompletionExampleSwift/ARTextViewAutocompletionExampleSwift-bridging-header.h";
 			};
 			name = Release;
 		};
@@ -444,15 +344,6 @@
 			buildConfigurations = (
 				C2B3C4161BA2671B002344AE /* Debug */,
 				C2B3C4171BA2671B002344AE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C2B3C4181BA2671B002344AE /* Build configuration list for PBXNativeTarget "ARTextViewAutocompletionExampleSwiftTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C2B3C4191BA2671B002344AE /* Debug */,
-				C2B3C41A1BA2671B002344AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

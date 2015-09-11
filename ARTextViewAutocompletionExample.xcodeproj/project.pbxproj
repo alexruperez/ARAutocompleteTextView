@@ -10,9 +10,6 @@
 		8DF4A805168B7C610025E16D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DF4A804168B7C610025E16D /* UIKit.framework */; };
 		8DF4A807168B7C610025E16D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DF4A806168B7C610025E16D /* Foundation.framework */; };
 		8DF4A809168B7C610025E16D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DF4A808168B7C610025E16D /* CoreGraphics.framework */; };
-		D547716618069AED0065533A /* ARTwitterAutocompleteTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = D547715D18069AED0065533A /* ARTwitterAutocompleteTextView.m */; };
-		D547716718069AED0065533A /* ARAutocompleteTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = D547715F18069AED0065533A /* ARAutocompleteTextView.m */; };
-		D547716818069AED0065533A /* AREmailAutocompleteTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = D547716118069AED0065533A /* AREmailAutocompleteTextView.m */; };
 		D547717618069B440065533A /* ARAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D547717018069B440065533A /* ARAppDelegate.m */; };
 		D547717718069B440065533A /* ARAutocompleteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D547717218069B440065533A /* ARAutocompleteManager.m */; };
 		D547717818069B440065533A /* ARSampleFieldsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D547717418069B440065533A /* ARSampleFieldsTableViewController.m */; };
@@ -21,6 +18,9 @@
 		D547718218069B7E0065533A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D547717D18069B7E0065533A /* Default.png */; };
 		D547718318069B7E0065533A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D547717E18069B7E0065533A /* Default@2x.png */; };
 		D547718418069B7E0065533A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D547717F18069B7E0065533A /* main.m */; };
+		D59957701BA2BD020089C1AB /* ARAutocompleteTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = D599576B1BA2BD020089C1AB /* ARAutocompleteTextView.m */; };
+		D59957711BA2BD020089C1AB /* AREmailAutocompleteTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = D599576D1BA2BD020089C1AB /* AREmailAutocompleteTextView.m */; };
+		D59957721BA2BD020089C1AB /* ARTwitterAutocompleteTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = D599576F1BA2BD020089C1AB /* ARTwitterAutocompleteTextView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,12 +28,6 @@
 		8DF4A804168B7C610025E16D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8DF4A806168B7C610025E16D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8DF4A808168B7C610025E16D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		D547715C18069AED0065533A /* ARTwitterAutocompleteTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ARTwitterAutocompleteTextView.h; path = Classes/ARTwitterAutocompleteTextView.h; sourceTree = SOURCE_ROOT; };
-		D547715D18069AED0065533A /* ARTwitterAutocompleteTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ARTwitterAutocompleteTextView.m; path = Classes/ARTwitterAutocompleteTextView.m; sourceTree = SOURCE_ROOT; };
-		D547715E18069AED0065533A /* ARAutocompleteTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ARAutocompleteTextView.h; path = Classes/ARAutocompleteTextView.h; sourceTree = SOURCE_ROOT; };
-		D547715F18069AED0065533A /* ARAutocompleteTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ARAutocompleteTextView.m; path = Classes/ARAutocompleteTextView.m; sourceTree = SOURCE_ROOT; };
-		D547716018069AED0065533A /* AREmailAutocompleteTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AREmailAutocompleteTextView.h; path = Classes/AREmailAutocompleteTextView.h; sourceTree = SOURCE_ROOT; };
-		D547716118069AED0065533A /* AREmailAutocompleteTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AREmailAutocompleteTextView.m; path = Classes/AREmailAutocompleteTextView.m; sourceTree = SOURCE_ROOT; };
 		D547716F18069B440065533A /* ARAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ARAppDelegate.h; path = ARTextViewAutocompletionExample/ARAppDelegate.h; sourceTree = SOURCE_ROOT; };
 		D547717018069B440065533A /* ARAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ARAppDelegate.m; path = ARTextViewAutocompletionExample/ARAppDelegate.m; sourceTree = SOURCE_ROOT; };
 		D547717118069B440065533A /* ARAutocompleteManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ARAutocompleteManager.h; path = ARTextViewAutocompletionExample/ARAutocompleteManager.h; sourceTree = SOURCE_ROOT; };
@@ -47,6 +41,12 @@
 		D547717D18069B7E0065533A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ARTextViewAutocompletionExample/Default.png; sourceTree = SOURCE_ROOT; };
 		D547717E18069B7E0065533A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "ARTextViewAutocompletionExample/Default@2x.png"; sourceTree = SOURCE_ROOT; };
 		D547717F18069B7E0065533A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ARTextViewAutocompletionExample/main.m; sourceTree = SOURCE_ROOT; };
+		D599576A1BA2BD020089C1AB /* ARAutocompleteTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ARAutocompleteTextView.h; path = Classes/ARAutocompleteTextView.h; sourceTree = SOURCE_ROOT; };
+		D599576B1BA2BD020089C1AB /* ARAutocompleteTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ARAutocompleteTextView.m; path = Classes/ARAutocompleteTextView.m; sourceTree = SOURCE_ROOT; };
+		D599576C1BA2BD020089C1AB /* AREmailAutocompleteTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AREmailAutocompleteTextView.h; path = Classes/AREmailAutocompleteTextView.h; sourceTree = SOURCE_ROOT; };
+		D599576D1BA2BD020089C1AB /* AREmailAutocompleteTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AREmailAutocompleteTextView.m; path = Classes/AREmailAutocompleteTextView.m; sourceTree = SOURCE_ROOT; };
+		D599576E1BA2BD020089C1AB /* ARTwitterAutocompleteTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ARTwitterAutocompleteTextView.h; path = Classes/ARTwitterAutocompleteTextView.h; sourceTree = SOURCE_ROOT; };
+		D599576F1BA2BD020089C1AB /* ARTwitterAutocompleteTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ARTwitterAutocompleteTextView.m; path = Classes/ARTwitterAutocompleteTextView.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,12 +123,12 @@
 		8DF4A83A168B7CFC0025E16D /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				D547715C18069AED0065533A /* ARTwitterAutocompleteTextView.h */,
-				D547715D18069AED0065533A /* ARTwitterAutocompleteTextView.m */,
-				D547715E18069AED0065533A /* ARAutocompleteTextView.h */,
-				D547715F18069AED0065533A /* ARAutocompleteTextView.m */,
-				D547716018069AED0065533A /* AREmailAutocompleteTextView.h */,
-				D547716118069AED0065533A /* AREmailAutocompleteTextView.m */,
+				D599576A1BA2BD020089C1AB /* ARAutocompleteTextView.h */,
+				D599576B1BA2BD020089C1AB /* ARAutocompleteTextView.m */,
+				D599576C1BA2BD020089C1AB /* AREmailAutocompleteTextView.h */,
+				D599576D1BA2BD020089C1AB /* AREmailAutocompleteTextView.m */,
+				D599576E1BA2BD020089C1AB /* ARTwitterAutocompleteTextView.h */,
+				D599576F1BA2BD020089C1AB /* ARTwitterAutocompleteTextView.m */,
 			);
 			name = Core;
 			path = HTTextFieldAutocompletionExample;
@@ -200,13 +200,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D547716618069AED0065533A /* ARTwitterAutocompleteTextView.m in Sources */,
-				D547716718069AED0065533A /* ARAutocompleteTextView.m in Sources */,
-				D547716818069AED0065533A /* AREmailAutocompleteTextView.m in Sources */,
+				D59957701BA2BD020089C1AB /* ARAutocompleteTextView.m in Sources */,
 				D547717618069B440065533A /* ARAppDelegate.m in Sources */,
+				D59957711BA2BD020089C1AB /* AREmailAutocompleteTextView.m in Sources */,
 				D547717718069B440065533A /* ARAutocompleteManager.m in Sources */,
 				D547717818069B440065533A /* ARSampleFieldsTableViewController.m in Sources */,
 				D547718418069B7E0065533A /* main.m in Sources */,
+				D59957721BA2BD020089C1AB /* ARTwitterAutocompleteTextView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
