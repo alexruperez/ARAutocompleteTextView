@@ -6,7 +6,6 @@
 [![Version Status](http://img.shields.io/cocoapods/v/ARAutocompleteTextView.svg?style=flat)](http://cocoadocs.org/docsets/ARAutocompleteTextView)
 [![License Status](http://img.shields.io/cocoapods/l/ARAutocompleteTextView.svg?style=flat)](http://cocoadocs.org/docsets/ARAutocompleteTextView)
 [![Platform Status](http://img.shields.io/cocoapods/p/ARAutocompleteTextView.svg?style=flat)](http://cocoadocs.org/docsets/ARAutocompleteTextView)
-[![Pod Status](http://img.shields.io/cocoapods/v/ARAutocompleteTextView.svg?style=flat)](https://github.com/CocoaPods/Specs/blob/master/Specs/ARAutocompleteTextView/0.0.1/ARAutocompleteTextView.podspec.json)
 [![Analytics](https://ga-beacon.appspot.com/UA-55329295-1/ARAutocompleteTextView/readme?pixel)](https://github.com/igrigorik/ga-beacon)
 
 ## Overview
