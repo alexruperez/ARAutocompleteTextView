@@ -32,12 +32,26 @@ ARAutocompleteTextView is a subclass of UITextView that automatically displays t
 
 Create an `ARAutocompleteTextView` instance exactly as as you would `UITextView`.  You can do eith either programmitcally or in Interface Builder.  Programmatically, this looks like:
 
+##### Objective C
+
     ARAutocompleteTextView* textField = [[ARAutocompleteTextView alloc] initWithFrame:CGRectMake(0,0,100,31)];
+    
+##### Swift
+    
+    let textField = ARAutocompleteTextView(frame: CGRectMake(0, 0, 100, 31))
+
+    
 
 The data source is the brains of the autocomplete logic.  If you just want to autocomplete email addresses, #hashtags or @handles, use `ARAutocompleteManager` from the example project as follows:
 
+##### Objective-C
     textField.autocompleteDataSource = [ARAutocompleteManager sharedManager];
     textField.autocompleteType = ARAutocompleteTypeEmail;
+    
+##### Swift
+    textField.autocompleteDataSource = ARAutocompleteManager.sharedManager()
+    textField.autocompleteType = ARAutocompleteType.Mail
+
 
 ## Customization
 
