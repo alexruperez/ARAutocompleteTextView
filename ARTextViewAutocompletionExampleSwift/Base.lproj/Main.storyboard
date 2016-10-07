@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="hB9-no-gO1">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="hB9-no-gO1">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--Navigation Controller-->
@@ -26,23 +28,22 @@
             <objects>
                 <tableViewController id="1sc-L6-CXF" customClass="ViewController" customModule="ARTextViewAutocompletionExampleSwift" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="FLX-1x-pSf">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.75" green="0.75" blue="0.75" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <sections>
                             <tableViewSection id="tUN-Ja-CAf">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="90" id="ReW-QN-ESG">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="90"/>
+                                        <rect key="frame" x="0.0" y="64" width="375" height="90"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ReW-QN-ESG" id="6aB-o5-bc0">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="90"/>
+                                            <frame key="frameInset" width="375" height="89.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" misplaced="YES" text="ARAutocompleteTextView Usage Examples" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GCJ-fI-99Y">
-                                                    <rect key="frame" x="8" y="20" width="584" height="60"/>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="ARAutocompleteTextView Usage Examples" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GCJ-fI-99Y">
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
-                                                    <color key="textColor" white="0.1108006387" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <color key="textColor" red="0.11080063879489899" green="0.11080063879489899" blue="0.11080063879489899" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -54,32 +55,28 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="230" id="IgU-DV-YsT">
-                                        <rect key="frame" x="0.0" y="90" width="320" height="230"/>
+                                        <rect key="frame" x="0.0" y="154" width="375" height="230"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="IgU-DV-YsT" id="6lC-3B-NlA">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="230"/>
+                                            <frame key="frameInset" width="375" height="230"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Emails:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="skx-5f-fW3">
-                                                    <rect key="frame" x="29" y="12" width="563" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" white="0.1108006387" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <color key="textColor" red="0.11080063879489899" green="0.11080063879489899" blue="0.11080063879489899" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" misplaced="YES" text="Implementation Details:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nBe-ch-efd">
-                                                    <rect key="frame" x="29" y="136" width="563" height="21"/>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Implementation Details:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nBe-ch-efd">
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                                    <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </label>
-                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" misplaced="YES" text="A subclass of AREmailAutocompleteTextView.  It suggests email domains based on its emailDomains array when the user types &quot;@&quot;" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4fb-iR-mTQ">
-                                                    <rect key="frame" x="29" y="149" width="563" height="60"/>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="A subclass of AREmailAutocompleteTextView.  It suggests email domains based on its emailDomains array when the user types &quot;@&quot;" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4fb-iR-mTQ">
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                                    <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </label>
-                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PxK-7X-MOr" customClass="AREmailAutocompleteTextView">
-                                                    <rect key="frame" x="20" y="41" width="572" height="87"/>
-                                                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PxK-7X-MOr" customClass="AREmailAutocompleteTextView">
+                                                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="emailAddress"/>
                                                 </textView>
@@ -93,6 +90,7 @@
                                                 <constraint firstItem="skx-5f-fW3" firstAttribute="leading" secondItem="6lC-3B-NlA" secondAttribute="leadingMargin" constant="21" id="F8e-Gs-iBv"/>
                                                 <constraint firstItem="nBe-ch-efd" firstAttribute="leading" secondItem="6lC-3B-NlA" secondAttribute="leadingMargin" constant="21" id="HLh-xa-KTe"/>
                                                 <constraint firstAttribute="bottomMargin" secondItem="4fb-iR-mTQ" secondAttribute="bottom" constant="12.5" id="WqU-Fv-rOm"/>
+                                                <constraint firstItem="nBe-ch-efd" firstAttribute="top" secondItem="PxK-7X-MOr" secondAttribute="bottom" constant="12" id="j4j-Ie-2Qw"/>
                                                 <constraint firstItem="PxK-7X-MOr" firstAttribute="top" secondItem="skx-5f-fW3" secondAttribute="bottom" constant="8" id="jb3-uV-fNb"/>
                                                 <constraint firstItem="skx-5f-fW3" firstAttribute="trailing" secondItem="6lC-3B-NlA" secondAttribute="trailingMargin" id="knr-cP-Loo"/>
                                                 <constraint firstItem="4fb-iR-mTQ" firstAttribute="leading" secondItem="6lC-3B-NlA" secondAttribute="leadingMargin" constant="21" id="oIC-iH-yIb"/>
@@ -101,33 +99,35 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="230" id="0q8-61-a6u">
-                                        <rect key="frame" x="0.0" y="320" width="320" height="230"/>
+                                        <rect key="frame" x="0.0" y="384" width="375" height="230"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="0q8-61-a6u" id="sbp-kB-bYp">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="230"/>
+                                            <frame key="frameInset" width="375" height="230"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="#hashtags or @handles:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wHo-8a-7FS">
-                                                    <rect key="frame" x="29" y="12" width="563" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" white="0.1108006387" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <color key="textColor" red="0.11080063879489899" green="0.11080063879489899" blue="0.11080063879489899" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Implementation Details:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M4K-Zd-ETy">
-                                                    <rect key="frame" x="29" y="128" width="280" height="21"/>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Implementation Details:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M4K-Zd-ETy">
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="21" id="Dmh-YQ-apN"/>
+                                                    </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                                    <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </label>
-                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" misplaced="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bYg-Lt-cMu">
-                                                    <rect key="frame" x="29" y="149" width="563" height="60"/>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bYg-Lt-cMu">
                                                     <string key="text">A subclass of ARAllAutocompleteTextView.  It suggests #hashtags or @handles based on its autocomplete array when the user types "#" or "@"</string>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                                    <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </label>
-                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eke-rs-rz4" customClass="ARTwitterAutocompleteTextView">
-                                                    <rect key="frame" x="20" y="41" width="572" height="79"/>
-                                                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eke-rs-rz4" customClass="ARTwitterAutocompleteTextView">
+                                                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="79" id="8Fi-Kd-eUT"/>
+                                                    </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="emailAddress"/>
                                                 </textView>
@@ -135,9 +135,12 @@
                                             <constraints>
                                                 <constraint firstItem="eke-rs-rz4" firstAttribute="trailing" secondItem="sbp-kB-bYp" secondAttribute="trailingMargin" id="EZv-7s-e8T"/>
                                                 <constraint firstItem="eke-rs-rz4" firstAttribute="top" secondItem="wHo-8a-7FS" secondAttribute="bottom" constant="8" id="F3t-vZ-WdO"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="M4K-Zd-ETy" secondAttribute="trailing" constant="58" id="Igd-kW-6RJ"/>
+                                                <constraint firstItem="M4K-Zd-ETy" firstAttribute="top" secondItem="eke-rs-rz4" secondAttribute="bottom" constant="8" symbolic="YES" id="LZ1-EK-sxH"/>
                                                 <constraint firstItem="wHo-8a-7FS" firstAttribute="leading" secondItem="sbp-kB-bYp" secondAttribute="leadingMargin" constant="21" id="Po8-8e-i9J"/>
                                                 <constraint firstItem="bYg-Lt-cMu" firstAttribute="leading" secondItem="sbp-kB-bYp" secondAttribute="leadingMargin" constant="21" id="boY-gP-qPB"/>
                                                 <constraint firstItem="eke-rs-rz4" firstAttribute="leading" secondItem="sbp-kB-bYp" secondAttribute="leadingMargin" constant="12" id="fIc-1z-qyT"/>
+                                                <constraint firstItem="M4K-Zd-ETy" firstAttribute="leading" secondItem="bYg-Lt-cMu" secondAttribute="leading" id="fKf-Gg-vvf"/>
                                                 <constraint firstAttribute="bottomMargin" secondItem="bYg-Lt-cMu" secondAttribute="bottom" constant="12.5" id="kPZ-1v-Djt"/>
                                                 <constraint firstItem="bYg-Lt-cMu" firstAttribute="trailing" secondItem="sbp-kB-bYp" secondAttribute="trailingMargin" id="kq3-1a-Yn7"/>
                                                 <constraint firstItem="wHo-8a-7FS" firstAttribute="trailing" secondItem="sbp-kB-bYp" secondAttribute="trailingMargin" id="oMA-jE-lcZ"/>
