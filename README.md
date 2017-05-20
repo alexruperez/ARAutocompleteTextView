@@ -1,6 +1,5 @@
 
 # ARAutocompleteTextView
-[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/alexruperez/ARAutocompleteTextView?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Twitter](http://img.shields.io/badge/contact-@alexruperez-blue.svg?style=flat)](http://twitter.com/alexruperez)
 [![GitHub Issues](http://img.shields.io/github/issues/alexruperez/ARAutocompleteTextView.svg?style=flat)](http://github.com/alexruperez/ARAutocompleteTextView/issues)
 [![Version Status](http://img.shields.io/cocoapods/v/ARAutocompleteTextView.svg?style=flat)](http://cocoadocs.org/docsets/ARAutocompleteTextView)
