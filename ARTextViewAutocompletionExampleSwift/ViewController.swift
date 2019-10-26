@@ -24,7 +24,7 @@ class ViewController: UITableViewController,UITextViewDelegate {
 
   }
   
-  func handleSingleTap()
+  @objc func handleSingleTap()
   {
     self.emailTextView.resignFirstResponder()
       self.allTextView.resignFirstResponder()
