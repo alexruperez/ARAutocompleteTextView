@@ -154,6 +154,7 @@
 				TargetAttributes = {
 					C2B3C3F51BA2671B002344AE = {
 						CreatedOnToolsVersion = 6.4;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -313,6 +314,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "ARTextViewAutocompletionExampleSwift/ARTextViewAutocompletionExampleSwift-bridging-header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -324,6 +326,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "ARTextViewAutocompletionExampleSwift/ARTextViewAutocompletionExampleSwift-bridging-header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
